@@ -1,0 +1,189 @@
+INFO:root:April, 2017 - Calls Offered: 23074
+INFO:root:April, 2017 - Abandon after 30s: 0.0524
+INFO:root:April, 2017 - FCR: 0.859
+INFO:root:April, 2017 - DSAT: 0.134
+INFO:root:April, 2017 - CSAT: 0.787
+INFO:root:May, 2017 - Calls Offered: 25469
+INFO:root:May, 2017 - Abandon after 30s: 0.058
+INFO:root:May, 2017 - FCR: 0.825
+INFO:root:May, 2017 - DSAT: 0.168
+INFO:root:May, 2017 - CSAT: 0.732
+INFO:root:June, 2017 - Calls Offered: 26666
+INFO:root:June, 2017 - Abandon after 30s: 0.0256
+INFO:root:June, 2017 - FCR: 0.831
+INFO:root:June, 2017 - DSAT: 0.148
+INFO:root:June, 2017 - CSAT: 0.736
+INFO:root:July, 2017 - Calls Offered: 28129
+INFO:root:July, 2017 - Abandon after 30s: 0.0613
+INFO:root:July, 2017 - FCR: 0.819
+INFO:root:July, 2017 - DSAT: 0.126
+INFO:root:July, 2017 - CSAT: 0.734
+INFO:root:August, 2017 - Calls Offered: 27037
+INFO:root:August, 2017 - Abandon after 30s: 0.102
+INFO:root:August, 2017 - FCR: 0.824
+INFO:root:August, 2017 - DSAT: 0.156
+INFO:root:August, 2017 - CSAT: 0.755
+INFO:root:September, 2017 - Calls Offered: 20717
+INFO:root:September, 2017 - Abandon after 30s: 0.135
+INFO:root:September, 2017 - FCR: 0.811
+INFO:root:September, 2017 - DSAT: 0.17
+INFO:root:September, 2017 - CSAT: 0.717
+INFO:root:October, 2017 - Calls Offered: 17363
+INFO:root:October, 2017 - Abandon after 30s: 0.0548
+INFO:root:October, 2017 - FCR: 0.814
+INFO:root:October, 2017 - DSAT: 0.145
+INFO:root:October, 2017 - CSAT: 0.738
+INFO:root:November, 2017 - Calls Offered: 13770
+INFO:root:November, 2017 - Abandon after 30s: 0.0257
+INFO:root:November, 2017 - FCR: 0.845
+INFO:root:November, 2017 - DSAT: 0.122
+INFO:root:November, 2017 - CSAT: 0.773
+INFO:root:December, 2017 - Calls Offered: 10933
+INFO:root:December, 2017 - Abandon after 30s: 0.0324
+INFO:root:December, 2017 - FCR: 0.847
+INFO:root:December, 2017 - DSAT: 0.113
+INFO:root:December, 2017 - CSAT: 0.805
+INFO:root:January, 2018 - Calls Offered: 16915
+INFO:root:January, 2018 - Abandon after 30s: 0.0232
+INFO:root:January, 2018 - FCR: 0.865
+INFO:root:January, 2018 - DSAT: 0.142
+INFO:root:January, 2018 - CSAT: 0.783
+INFO:root:February, 2018 - Calls Offered: 17342
+INFO:root:February, 2018 - Abandon after 30s: 0.0135
+INFO:root:February, 2018 - FCR: 0.886
+INFO:root:February, 2018 - DSAT: 0.124
+INFO:root:February, 2018 - CSAT: 0.78
+INFO:root:March, 2018 - Calls Offered: 22343
+INFO:root:March, 2018 - Abandon after 30s: 0.0305
+INFO:root:March, 2018 - FCR: 0.86
+INFO:root:March, 2018 - DSAT: 0.18
+INFO:root:March, 2018 - CSAT: 0.744
+INFO:root:April, 2017 - Calls Offered: 23074
+INFO:root:April, 2017 - Abandon after 30s: 0.0524
+INFO:root:April, 2017 - FCR: 0.859
+INFO:root:April, 2017 - DSAT: 0.134
+INFO:root:April, 2017 - CSAT: 0.787
+INFO:root:May, 2017 - Calls Offered: 25469
+INFO:root:May, 2017 - Abandon after 30s: 0.058
+INFO:root:May, 2017 - FCR: 0.825
+INFO:root:May, 2017 - DSAT: 0.168
+INFO:root:May, 2017 - CSAT: 0.732
+INFO:root:June, 2017 - Calls Offered: 26666
+INFO:root:June, 2017 - Abandon after 30s: 0.0256
+INFO:root:June, 2017 - FCR: 0.831
+INFO:root:June, 2017 - DSAT: 0.148
+INFO:root:June, 2017 - CSAT: 0.736
+INFO:root:July, 2017 - Calls Offered: 28129
+INFO:root:July, 2017 - Abandon after 30s: 0.0613
+INFO:root:July, 2017 - FCR: 0.819
+INFO:root:July, 2017 - DSAT: 0.126
+INFO:root:July, 2017 - CSAT: 0.734
+INFO:root:August, 2017 - Calls Offered: 27037
+INFO:root:August, 2017 - Abandon after 30s: 0.102
+INFO:root:August, 2017 - FCR: 0.824
+INFO:root:August, 2017 - DSAT: 0.156
+INFO:root:August, 2017 - CSAT: 0.755
+INFO:root:September, 2017 - Calls Offered: 20717
+INFO:root:September, 2017 - Abandon after 30s: 0.135
+INFO:root:September, 2017 - FCR: 0.811
+INFO:root:September, 2017 - DSAT: 0.17
+INFO:root:September, 2017 - CSAT: 0.717
+INFO:root:October, 2017 - Calls Offered: 17363
+INFO:root:October, 2017 - Abandon after 30s: 0.0548
+INFO:root:October, 2017 - FCR: 0.814
+INFO:root:October, 2017 - DSAT: 0.145
+INFO:root:October, 2017 - CSAT: 0.738
+INFO:root:November, 2017 - Calls Offered: 13770
+INFO:root:November, 2017 - Abandon after 30s: 0.0257
+INFO:root:November, 2017 - FCR: 0.845
+INFO:root:November, 2017 - DSAT: 0.122
+INFO:root:November, 2017 - CSAT: 0.773
+INFO:root:December, 2017 - Calls Offered: 10933
+INFO:root:December, 2017 - Abandon after 30s: 0.0324
+INFO:root:December, 2017 - FCR: 0.847
+INFO:root:December, 2017 - DSAT: 0.113
+INFO:root:December, 2017 - CSAT: 0.805
+INFO:root:January, 2018 - Calls Offered: 16915
+INFO:root:January, 2018 - Abandon after 30s: 0.0232
+INFO:root:January, 2018 - FCR: 0.865
+INFO:root:January, 2018 - DSAT: 0.142
+INFO:root:January, 2018 - CSAT: 0.783
+INFO:root:February, 2018 - Calls Offered: 17342
+INFO:root:February, 2018 - Abandon after 30s: 0.0135
+INFO:root:February, 2018 - FCR: 0.886
+INFO:root:February, 2018 - DSAT: 0.124
+INFO:root:February, 2018 - CSAT: 0.78
+INFO:root:March, 2018 - Calls Offered: 22343
+INFO:root:March, 2018 - Abandon after 30s: 0.0305
+INFO:root:March, 2018 - FCR: 0.86
+INFO:root:March, 2018 - DSAT: 0.18
+INFO:root:March, 2018 - CSAT: 0.744
+INFO:root:March, 2018 - Promoters: 279, Good
+INFO:root:March, 2018 - Passives: 21, Bad
+INFO:root:March, 2018 - Detractors: 33, Bad
+INFO:root:February, 2018 - Promoters: 235, Good
+INFO:root:February, 2018 - Passives: 70, Bad
+INFO:root:February, 2018 - Detractors: 72, Bad
+INFO:root:January, 2018 - Promoters: 256, Good
+INFO:root:January, 2018 - Passives: 86, Bad
+INFO:root:January, 2018 - Detractors: 86, Bad
+INFO:root:December, 2017 - Promoters: 172, Bad
+INFO:root:December, 2017 - Passives: 54, Bad
+INFO:root:December, 2017 - Detractors: 67, Bad
+INFO:root:November, 2017 - Promoters: 199, Bad
+INFO:root:November, 2017 - Passives: 67, Bad
+INFO:root:November, 2017 - Detractors: 89, Bad
+INFO:root:October, 2017 - Promoters: 271, Good
+INFO:root:October, 2017 - Passives: 73, Bad
+INFO:root:October, 2017 - Detractors: 80, Bad
+INFO:root:September, 2017 - Promoters: 270, Good
+INFO:root:September, 2017 - Passives: 106, Good
+INFO:root:September, 2017 - Detractors: 166, Good
+INFO:root:August, 2017 - Promoters: 358, Good
+INFO:root:August, 2017 - Passives: 145, Good
+INFO:root:August, 2017 - Detractors: 178, Good
+INFO:root:July, 2017 - Promoters: 330, Good
+INFO:root:July, 2017 - Passives: 138, Good
+INFO:root:July, 2017 - Detractors: 168, Good
+INFO:root:June, 2017 - Promoters: 311, Good
+INFO:root:June, 2017 - Passives: 107, Good
+INFO:root:June, 2017 - Detractors: 162, Good
+INFO:root:May, 2017 - Promoters: 305, Good
+INFO:root:May, 2017 - Passives: 97, Bad
+INFO:root:May, 2017 - Detractors: 152, Good
+INFO:root:April, 2017 - Promoters: 310, Good
+INFO:root:April, 2017 - Passives: 97, Bad
+INFO:root:April, 2017 - Detractors: 128, Good
+INFO:root:March, 2017 - Promoters: 305, Good
+INFO:root:March, 2017 - Passives: 98, Bad
+INFO:root:March, 2017 - Detractors: 136, Good
+INFO:root:February, 2017 - Promoters: 239, Good
+INFO:root:February, 2017 - Passives: 84, Bad
+INFO:root:February, 2017 - Detractors: 189, Good
+INFO:root:January, 2017 - Promoters: 248, Good
+INFO:root:January, 2017 - Passives: 102, Good
+INFO:root:January, 2017 - Detractors: 128, Good
+INFO:root:December, 2016 - Promoters: 174, Bad
+INFO:root:December, 2016 - Passives: 60, Bad
+INFO:root:December, 2016 - Detractors: 80, Bad
+INFO:root:November, 2016 - Promoters: 181, Bad
+INFO:root:November, 2016 - Passives: 75, Bad
+INFO:root:November, 2016 - Detractors: 92, Bad
+INFO:root:October, 2016 - Promoters: 254, Good
+INFO:root:October, 2016 - Passives: 103, Good
+INFO:root:October, 2016 - Detractors: 171, Good
+INFO:root:September, 2016 - Promoters: 323, Good
+INFO:root:September, 2016 - Passives: 104, Good
+INFO:root:September, 2016 - Detractors: 167, Good
+INFO:root:August, 2016 - Promoters: 339, Good
+INFO:root:August, 2016 - Passives: 131, Good
+INFO:root:August, 2016 - Detractors: 188, Good
+INFO:root:July, 2016 - Promoters: 314, Good
+INFO:root:July, 2016 - Passives: 118, Good
+INFO:root:July, 2016 - Detractors: 158, Good
+INFO:root:June, 2016 - Promoters: 362, Good
+INFO:root:June, 2016 - Passives: 116, Good
+INFO:root:June, 2016 - Detractors: 189, Good
+INFO:root:May, 2016 - Promoters: 354, Good
+INFO:root:May, 2016 - Passives: 121, Good
+INFO:root:May, 2016 - Detractors: 169, Good
