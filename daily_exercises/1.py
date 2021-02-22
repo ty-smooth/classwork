@@ -1,1 +1,1 @@
-# Installed appropriate programs
+# Installed Anaconda and Visual Studio

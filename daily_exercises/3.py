@@ -19,9 +19,7 @@ print(''.join(set("Mississippi")))
 def is_palindrome(phrase):
     lower_phrase = phrase.lower()
     clean_phrase = ''.join(char for char in lower_phrase if char.isalnum())
-    print(clean_phrase)
     reverse_phrase = ''.join(reversed(clean_phrase))
-    print(reverse_phrase)
     result = "Y" if clean_phrase == reverse_phrase else "N"
     return result
 

@@ -3,7 +3,7 @@ print(50+50)
 print(100-10)
 
 # Problem 2
-print(30+6)
+print(30*6)
 print(6^6)
 print(6**6)
 print(6+6+6+6+6+6)
@@ -13,6 +13,7 @@ print("Hello World")
 print("Hello World : 10")
 
 # Problem 4
+# Reference this mathematical derivation: https://pub.towardsai.net/mortgage-calculator-python-code-94d976d25a27
 loan_size = 800000
 interest_rate = 6.0
 length_months = 103
