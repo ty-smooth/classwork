@@ -84,7 +84,7 @@ def main():
 
     sheet1_result = [analyze_sheet1(row) for row in sheet1.iter_rows(min_row=2, max_row=13, max_col=6, values_only=True)]
     sheet2_result = [analyze_sheet2(col) for col in sheet2.iter_cols(min_row=0, max_row=9, min_col=2, max_col=24, values_only=True)]
-    print('Log file created')
+    print('Check log file for output')
 
 if __name__ == "__main__":
     main()
