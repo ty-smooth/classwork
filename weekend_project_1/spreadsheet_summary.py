@@ -42,7 +42,6 @@ def analyze_sheet1(row):
         Empty value as function does not need to return anything
     """
 
-    print(type(row))
     month = get_month(row[0])
     year = row[0].year
     logging.info(f"{month}, {year} - Calls Offered: {row[1]}")
@@ -73,7 +72,7 @@ def analyze_sheet2(col):
     logging.info(f"{month}, {year} - Detractors: {col[7]}, {'Good' if col[7] > 100 else 'Bad'}")
     return None
 
-if __name__ == "__main__":
+def main():
     user_input = input('Which month would you like to analyze: January or March? ')
     user_choice = 'january' if user_input.lower() == 'january' else 'march'
     filename = f'expedia_report_monthly_{user_choice}_2018.xlsx'
@@ -85,3 +84,7 @@ if __name__ == "__main__":
 
     sheet1_result = [analyze_sheet1(row) for row in sheet1.iter_rows(min_row=2, max_row=13, max_col=6, values_only=True)]
     sheet2_result = [analyze_sheet2(col) for col in sheet2.iter_cols(min_row=0, max_row=9, min_col=2, max_col=24, values_only=True)]
+    print('Log file created')
+
+if __name__ == "__main__":
+    main()
