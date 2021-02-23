@@ -48,8 +48,8 @@ def bmi(weight, height):
 
 def main():
     num_people = int(input('How many people are there? (Use a numeric value like 2 or 7) '))
-    people_stats = [get_data() for i in range(num_people)]
-    output_list = [bmi(i[0], i[1]) for i in people_stats]
+    people_stats = [get_data() for num in range(num_people)]
+    output_list = [bmi(person[0], person[1]) for person in people_stats]
     output_string = ' '.join(output_list)
     print(output_string)
 
