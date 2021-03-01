@@ -1,6 +1,5 @@
 import logging
-logging.basicConfig(filename='output.log', format='%(asctime)s - %(levelname)s - %(message)s')
-
+import sys
 import pandas as pd
 
 
@@ -18,7 +17,7 @@ def display_dataframe(df, n=5):
     """
 
     head = df.head(n)
-    logging.info(head)
+    logging.info(f"{head}")
 
 
 def groupby_size(df, col):
@@ -33,13 +32,13 @@ def groupby_size(df, col):
 
     Returns
     ----------
-    new_df : dataframe
+    df : dataframe
         The output dataframe
     """
 
     try:
-        new_df = pd.DataFrame({'count' : df.groupby([col]).size()}).reset_index()
-        return new_df
+        df = pd.DataFrame({'count' : df.groupby([col]).size()}).reset_index()
+        return df
     except:
         logging.error(f"Column: {col}, does not exist in this dataframe.")
 
@@ -56,13 +55,13 @@ def subset_df(df, cols):
 
     Returns
     ----------
-    new_df : dataframe
+    df : dataframe
         The output dataframe
     """
 
     try:
-        new_df = df[cols]
-        return new_df
+        df = df[cols]
+        return df
     except:
         logging.error("The column subset does not exist in this dataframe.")
 
@@ -79,14 +78,14 @@ def get_top_n(df, n):
 
     Returns
     ----------
-    top_df : dataframe
+    df : dataframe
         The output dataframe
     """
 
     try:
-        sorted_df = df.sort_values(by='count', axis=0, ascending=False, inplace=False)
-        top_df = sorted_df[:n]
-        return top_df
+        df = df.sort_values(by='count', axis=0, ascending=False, inplace=False)
+        df = df[:n]
+        return df
     except:
         logging.error("Unable sort dataframe.")
 
@@ -135,3 +134,29 @@ def export_to_csv(df, name):
         return filename
     except:
         logging.error('Unable to export dataframe to CSV file')
+
+
+def create_name_col(df, cols, col_name):
+    """Combines name columns into one column
+
+    Parameters
+    ----------
+    df : dataframe
+        The input dataframe
+    cols : list
+        A list of columns
+    col_name : str
+        The combined column name
+
+    Returns
+    ----------
+    df : dataframe
+        The output dataframe
+    """
+
+    try:
+        df[cols] = df[cols].apply(lambda col: col.str.strip())
+        df[col_name] = df[cols].apply(lambda row: ' '.join(row.values.astype(str)), axis=1)
+        return df
+    except:
+        logging.error("The column subset does not exist in this dataframe.")

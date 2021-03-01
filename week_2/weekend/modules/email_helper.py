@@ -1,10 +1,42 @@
 import logging
-logging.basicConfig(filename='output.log', format='%(asctime)s - %(levelname)s - %(message)s')
-
 import os
 import base64
 from sendgrid import SendGridAPIClient
 from sendgrid.helpers.mail import (Mail, Attachment, FileContent, FileName, FileType, Disposition)
+
+
+def add_attachment(message, file):
+    """Sends an email with one or multiple attachments
+
+    Parameters
+    ----------
+    message : obj
+        A Mail object
+    file : str
+        The filename of the attachment
+
+    Returns
+    ----------
+    True : bool
+        A confirmation that the file was attached
+    """
+
+    try:
+        with open(file, 'rb') as f:
+            data = f.read()
+            f.close()
+        encoded_file = base64.b64encode(data).decode()
+
+        attachedFile = Attachment(
+            FileContent(encoded_file),
+            FileName(file)
+        )
+        message.attachment = attachedFile
+        return True
+    except:
+        logging.error("We were unable to attach the file")
+        return False
+
 
 def send_email(*args):
     """Sends an email with one or multiple attachments
@@ -25,17 +57,7 @@ def send_email(*args):
         subject='NYL Data Processing Results',
         html_content='See attached log file, CSV outputs and data visualization.')
 
-    for arg in args:
-        with open(arg, 'rb') as f:
-            data = f.read()
-            f.close()
-        encoded_file = base64.b64encode(data).decode()
-
-        attachedFile = Attachment(
-            FileContent(encoded_file),
-            FileName(arg)
-        )
-        message.attachment = attachedFile
+    attached = [add_attachment(message, arg) for arg in args]
 
     try:
         sg = SendGridAPIClient(os.environ.get('SENDGRID_API_KEY'))

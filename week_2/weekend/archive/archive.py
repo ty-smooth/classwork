@@ -13,3 +13,7 @@ def validate_email(email, col, index):
 
     if not is_valid_email:
         logging.error(f"Index: {index}, Column: {col}, Not a valid email address.")
+
+
+subset_cols = ["Agent Last Name", "Agent Middle Name", "Agent First Name",
+            "Agent Writing Contract Start Date", "Date when an agent became A2O"]
